@@ -11,7 +11,7 @@ describe("Create Page", () => {
 
     cy.changeMetamaskNetwork("Mumbai");
 
-    cy.visit("http://136.243.174.176:4477");
+    cy.visit("/");
 
     cy.acceptMetamaskAccess();
 
